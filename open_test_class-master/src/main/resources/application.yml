@@ -1,0 +1,16 @@
+spring:
+  thymeleaf:
+	prefix: classpath:/page/
+
+datasource:
+  url:jdbc:mysql://localhost:3306/stu?uerUnicode=true&characterEncoding=UTF-8&userJDBCComplaintTimezoneShift=true&userLegacyDatetimeCode=false&serverTimezone=UTC
+
+username: Admin
+
+password: Admin
+
+jpa:
+  hibernate:
+	ddl-auto: update
+	user-new-id-generator-mappings: false
+  show-sql: true
